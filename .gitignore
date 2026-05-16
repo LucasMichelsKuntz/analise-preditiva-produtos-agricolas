@@ -1,0 +1,84 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.whl
+*.spec
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+**/.ipynb_checkpoints/
+*-checkpoint.ipynb
+.jupyter/
+profile_default/
+ipython_config.py
+*.nbconvert/
+# autosave / backup gerados pelo Jupyter Lab / Classic
+*~
+*.bak
+*.swp
+*.swo
+
+# ── Saídas geradas pelo notebook ──────────────────────────────────────────────
+# PNGs produzidos em tempo de execução (grafico1_*.png, etc.)
+src/*.png
+*.png
+!assets/*.png
+
+# Modelos serializados
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# ── Testes e cobertura ─────────────────────────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# ── Tipagem / ferramentas ──────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pytype/
+
+# ── IDEs ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── Sistema Operacional ────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Misc ───────────────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
